@@ -11,21 +11,21 @@ import javax.swing.JPanel;
 */
 class RoundedPanel extends JPanel
 {
-    private int xAxis;
-    private int yAxis;
+    private int horizontalAxis;
+    private int verticalyAxis;
     private int width;
     private int hight;
 
 /**
  * Este es el constructor de la clase.
- * @param pXAxis -Es la ubicación del ovalo en el eje x.
- * @param pYAxis -Es la ubicación del ovalo en el eje y.
+ * @param pVerticalAxis -Es la ubicación del ovalo en el eje x.
+ * @param pVerticalAxis -Es la ubicación del ovalo en el eje y.
  * @param pWidth -Es la anchura del ovalo.
- * @param pHight  -Es la altura del ovalo.
+ * @param pHight -Es la altura del ovalo.
  */
-    public RoundedPanel(int pXAxis,int pYAxis,int pWidth,int pHight) {
-      this.xAxis=pXAxis;
-      this.yAxis=pYAxis;
+    public RoundedPanel(int pHorizontalAxis,int pVerticalAxis,int pWidth,int pHight) {
+      this.horizontalAxis=pVerticalAxis;
+      this.verticalyAxis=pVerticalAxis;
       this.width=pWidth;
       this.hight=pHight;
     }
@@ -36,9 +36,9 @@ class RoundedPanel extends JPanel
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         g.setColor(Color.gray);
-        g.fillOval(this.xAxis,this.yAxis,this.width,this.hight); 
+        g.fillOval(this.horizontalAxis,this.verticalyAxis,this.width,this.hight); 
         g.setColor(getBackground());
-        g.fillOval(this.xAxis,this.yAxis,this.width,this.hight); 
+        g.fillOval(this.horizontalAxis,this.verticalyAxis,this.width,this.hight); 
        
     }
 
