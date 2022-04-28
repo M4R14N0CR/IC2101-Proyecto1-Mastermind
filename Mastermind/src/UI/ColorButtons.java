@@ -16,7 +16,7 @@ import javax.swing.JButton;
  */
 public class ColorButtons extends JButton{
   
-  private int Contador=0;
+  private int count=0;
   private Color currentColor=Color.GREEN;
   
   /**
@@ -34,7 +34,7 @@ public class ColorButtons extends JButton{
 
       @Override
       public void actionPerformed(ActionEvent e) {
-        Contador += 1;
+        count += 1;
         setColor();
       }
     });
@@ -52,27 +52,27 @@ public class ColorButtons extends JButton{
    * Clase que establece el color de los botones cada vez que se clickean.
    */
   public void setColor() {
-  if (this.Contador == 0) {
+  if (this.count == 0) {
      this.setBackground(Color.GREEN);
      this.currentColor = Color.GREEN;
     }
     
-  else if (this.Contador == 1) {
+  else if (this.count == 1) {
       this.setBackground(Color.YELLOW);
       this.currentColor = Color.YELLOW;
     }
-    else if (this.Contador == 2) {
+    else if (this.count == 2) {
       this.setBackground(Color.CYAN);
       this.currentColor = Color.CYAN;
     }
-    else if (this.Contador == 3) {
+    else if (this.count == 3) {
       this.setBackground(Color.ORANGE);
       this.currentColor = Color.ORANGE;
     }
-    else if (this.Contador == 4) {
+    else if (this.count == 4) {
       this.setBackground(Color.MAGENTA);
       this.currentColor = Color.MAGENTA;
-      this.Contador = -1;
+      this.count = -1;
     }
       
   }

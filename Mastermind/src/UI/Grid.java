@@ -54,7 +54,7 @@ public class Grid extends JPanel{
     	        FinalWindow myWindow = new FinalWindow("Sus turnos se han terminado. Desea jugar de nuevo?");
     	        myWindow.setVisible(true);
 
-    	      }
+    	  }
     	
     }
 

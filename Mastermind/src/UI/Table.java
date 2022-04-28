@@ -30,9 +30,9 @@ public class Table extends JPanel {
   private Panels line10;
   private int redClues;
   
-  ArrayList<Color> userCombination = new ArrayList<>();
-  ArrayList<Panels> tablePanels = new ArrayList<>();
-  RandomCombination randomCombination;
+  private ArrayList<Color> userCombination = new ArrayList<>();
+  private ArrayList<Panels> tablePanels = new ArrayList<>();
+  private RandomCombination randomCombination;
 
 /**
  * Constructor del tablero.

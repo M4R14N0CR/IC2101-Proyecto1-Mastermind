@@ -93,12 +93,12 @@ public class Clues extends JPanel{
                   userCombination.set(i, Color.PINK);
                   CopyRandom.set(j, Color.BLACK);
                 }
-                  }
+               }
               }
-          } 
+             }  
           
          
-        }
+           }
        
     }
       
