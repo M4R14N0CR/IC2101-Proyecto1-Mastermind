@@ -15,10 +15,10 @@ import javax.swing.JPanel;
  */
 public class Panels extends JPanel{
   
-  private JPanel Panel1;
-  private JPanel Panel2;
-  private JPanel Panel3;
-  private JPanel Panel4;
+  private RoundedPanel Panel1;
+  private RoundedPanel Panel2;
+  private RoundedPanel Panel3;
+  private RoundedPanel Panel4;
   private Clues myClue;
   
   /** 
