@@ -94,11 +94,9 @@ public class Clues extends JPanel{
                   CopyRandom.set(j, Color.BLACK);
                 }
                }
-              }
-             }  
-          
-         
-           }
+              } 
+             }    
+            }
        
     }
       
